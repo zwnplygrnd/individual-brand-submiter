@@ -9,7 +9,7 @@ import google.auth
 from google.cloud import firestore
 import base64, hashlib
 
-db = firestore.Client(database="web-risk-submission-operations", project="micka-sandbox-437022")
+db = firestore.Client(database="brand-submitter", project="regulator-wr")
 COLL = os.environ["COLLECTION_NAME"]    
 print(COLL)                     # collection name
 
