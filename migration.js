@@ -4,9 +4,9 @@ import {
 
 // one constructor call == correct database straight away
 const db = new Firestore({
-    projectId: 'micka-sandbox-437022', // GCP project
-    databaseId: 'web-risk-submission-operations', // Firestore DB inside the project
-    keyFilename: './webrisk-sa.json', // same key you used before
+    projectId: 'regualtor-wr', // GCP project
+    databaseId: 'brand-submitter', // Firestore DB inside the project
+    keyFilename: './sa-key.json', // same key you used before
 });
 
 const FROM_COLL = 'operations';
